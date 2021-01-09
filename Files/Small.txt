@@ -1,0 +1,970 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       192.168.229.254       192.168.202.79        TLSv1    117    Change Cipher Spec, Encrypted Handshake Message
+
+Frame 1: 117 bytes on wire (936 bits), 117 bytes captured (936 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46117, Seq: 1, Ack: 1, Len: 47
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000000       192.168.202.79        192.168.229.254       TLSv1    269    Application Data
+
+Frame 2: 269 bytes on wire (2152 bits), 269 bytes captured (2152 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46117, Dst Port: 443, Seq: 1, Ack: 48, Len: 199
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000000       192.168.202.79        192.168.229.251       TCP      70     50463 → 80 [FIN, ACK] Seq=1 Ack=1 Win=980 Len=0 TSval=8812998 TSecr=46388446
+
+Frame 3: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50463, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000000       192.168.229.254       192.168.202.79        TCP      70     443 → 46117 [ACK] Seq=48 Ack=200 Win=32768 Len=0 TSval=319644339 TSecr=8812998
+
+Frame 4: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46117, Seq: 48, Ack: 200, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.000000       192.168.202.79        192.168.229.251       TCP      78     50465 → 80 [SYN] Seq=0 Win=14600 Len=0 MSS=1460 SACK_PERM=1 TSval=8812999 TSecr=0 WS=16
+
+Frame 5: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50465, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.000000       192.168.202.79        192.168.229.153       SMB      217    Session Setup AndX Request, User: \administrator
+
+Frame 6: 217 bytes on wire (1736 bits), 217 bytes captured (1736 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.153
+Transmission Control Protocol, Src Port: 55173, Dst Port: 445, Seq: 1, Ack: 1, Len: 147
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.000000       192.168.229.251       192.168.202.79        TCP      70     80 → 50463 [ACK] Seq=1 Ack=2 Win=64074 Len=0 TSval=46388446 TSecr=8812998
+
+Frame 7: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.251, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 80, Dst Port: 50463, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.000000       192.168.229.254       192.168.202.79        TLSv1    178    Application Data
+
+Frame 8: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46117, Seq: 48, Ack: 200, Len: 108
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.000000       192.168.229.251       192.168.202.79        TCP      82     80 → 50465 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1380 WS=1 TSval=0 TSecr=0 SACK_PERM=1
+
+Frame 9: 82 bytes on wire (656 bits), 82 bytes captured (656 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.251, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 80, Dst Port: 50465, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.000000       192.168.229.254       192.168.202.79        TLSv1    120    Application Data
+
+Frame 10: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46117, Seq: 156, Ack: 200, Len: 50
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.000000       192.168.229.254       192.168.202.79        TLSv1    135    Application Data
+
+Frame 11: 135 bytes on wire (1080 bits), 135 bytes captured (1080 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46117, Seq: 206, Ack: 200, Len: 65
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.000000       192.168.229.254       192.168.202.79        TLSv1    299    Application Data
+
+Frame 12: 299 bytes on wire (2392 bits), 299 bytes captured (2392 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46117, Seq: 271, Ack: 200, Len: 229
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.000000       192.168.229.254       192.168.202.79        TLSv1    97     Application Data
+
+Frame 13: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46117, Seq: 500, Ack: 200, Len: 27
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.000000       192.168.229.254       192.168.202.79        TCP      70     443 → 46117 [FIN, PSH, ACK] Seq=527 Ack=200 Win=32768 Len=0 TSval=319644341 TSecr=0
+
+Frame 14: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46117, Seq: 527, Ack: 200, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.000000       192.168.229.153       192.168.202.79        SMB      109    Session Setup AndX Response, Error: STATUS_LOGON_FAILURE
+
+Frame 15: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.153, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 445, Dst Port: 55173, Seq: 1, Ack: 148, Len: 39
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.000000       192.168.202.79        192.168.229.251       TCP      70     50465 → 80 [ACK] Seq=1 Ack=1 Win=14608 Len=0 TSval=8812999 TSecr=0
+
+Frame 16: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50465, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.000000       192.168.202.79        192.168.229.251       HTTP     236    HEAD /DEASLog02.nsf HTTP/1.1 
+
+Frame 17: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50465, Dst Port: 80, Seq: 1, Ack: 1, Len: 166
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.000000       192.168.202.79        192.168.229.153       SMB      212    Session Setup AndX Request, User: \webadmin
+
+Frame 18: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.153
+Transmission Control Protocol, Src Port: 55173, Dst Port: 445, Seq: 148, Ack: 40, Len: 142
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 0.000000       192.168.229.153       192.168.202.79        SMB      109    Session Setup AndX Response, Error: STATUS_LOGON_FAILURE
+
+Frame 19: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.153, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 445, Dst Port: 55173, Seq: 40, Ack: 290, Len: 39
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.000000       192.168.229.251       192.168.202.79        HTTP     284    HTTP/1.1 404 Not Found 
+
+Frame 20: 284 bytes on wire (2272 bits), 284 bytes captured (2272 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.251, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 80, Dst Port: 50465, Seq: 1, Ack: 167, Len: 214
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 0.000000       192.168.202.79        192.168.229.254       TLSv1    97     Encrypted Alert
+
+Frame 21: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46117, Dst Port: 443, Seq: 200, Ack: 528, Len: 27
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 0.000000       192.168.202.79        192.168.229.254       TCP      70     46117 → 443 [FIN, ACK] Seq=227 Ack=528 Win=16616 Len=0 TSval=8813000 TSecr=319644341
+
+Frame 22: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46117, Dst Port: 443, Seq: 227, Ack: 528, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 0.000000       192.168.229.254       192.168.202.79        TCP      70     443 → 46117 [RST] Seq=528 Win=32768 Len=0 TSval=319644345 TSecr=0
+
+Frame 23: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46117, Seq: 528, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 0.000000       192.168.202.79        192.168.229.254       TCP      78     46119 → 443 [SYN] Seq=0 Win=14600 Len=0 MSS=1460 SACK_PERM=1 TSval=8813000 TSecr=0 WS=16
+
+Frame 24: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46119, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 0.000000       192.168.229.254       192.168.202.79        TCP      78     443 → 46119 [SYN, ACK] Seq=0 Ack=1 Win=32768 Len=0 MSS=1380 SACK_PERM=1 TSval=319644346 TSecr=8813000
+
+Frame 25: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 0.000000       192.168.202.79        192.168.229.254       TCP      70     46119 → 443 [ACK] Seq=1 Ack=1 Win=14600 Len=0 TSval=8813000 TSecr=319644346
+
+Frame 26: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46119, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 0.000000       192.168.202.79        192.168.229.254       SSLv2    202    Client Hello
+
+Frame 27: 202 bytes on wire (1616 bits), 202 bytes captured (1616 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46119, Dst Port: 443, Seq: 1, Ack: 1, Len: 132
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 0.010000       192.168.229.254       192.168.202.79        TCP      70     443 → 46119 [ACK] Seq=1 Ack=133 Win=32768 Len=0 TSval=319644346 TSecr=8813000
+
+Frame 28: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 1, Ack: 133, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 0.010000       192.168.229.254       192.168.202.79        TLSv1    604    Server Hello, Certificate, Server Hello Done
+
+Frame 29: 604 bytes on wire (4832 bits), 604 bytes captured (4832 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 1, Ack: 133, Len: 534
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 0.010000       192.168.202.79        192.168.229.254       TCP      70     46119 → 443 [ACK] Seq=133 Ack=535 Win=15544 Len=0 TSval=8813001 TSecr=319644347
+
+Frame 30: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46119, Dst Port: 443, Seq: 133, Ack: 535, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 0.010000       192.168.202.79        192.168.229.254       TLSv1    256    Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 31: 256 bytes on wire (2048 bits), 256 bytes captured (2048 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46119, Dst Port: 443, Seq: 133, Ack: 535, Len: 186
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 0.010000       192.168.229.254       192.168.202.79        TCP      70     443 → 46119 [ACK] Seq=535 Ack=319 Win=32768 Len=0 TSval=319644349 TSecr=8813001
+
+Frame 32: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 535, Ack: 319, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 0.010000       192.168.229.254       192.168.202.79        TLSv1    117    Change Cipher Spec, Encrypted Handshake Message
+
+Frame 33: 117 bytes on wire (936 bits), 117 bytes captured (936 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 535, Ack: 319, Len: 47
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 0.010000       192.168.202.79        192.168.229.254       TLSv1    269    Application Data
+
+Frame 34: 269 bytes on wire (2152 bits), 269 bytes captured (2152 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46119, Dst Port: 443, Seq: 319, Ack: 582, Len: 199
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 0.010000       192.168.202.79        192.168.229.153       SMB      212    Session Setup AndX Request, User: \sysadmin
+
+Frame 35: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.153
+Transmission Control Protocol, Src Port: 55173, Dst Port: 445, Seq: 290, Ack: 79, Len: 142
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 0.010000       192.168.229.254       192.168.202.79        TCP      70     443 → 46119 [ACK] Seq=582 Ack=518 Win=32768 Len=0 TSval=319644353 TSecr=8813002
+
+Frame 36: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 582, Ack: 518, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 0.010000       192.168.202.79        192.168.229.251       TCP      70     50465 → 80 [FIN, ACK] Seq=167 Ack=216 Win=15680 Len=0 TSval=8813002 TSecr=46388446
+
+Frame 37: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50465, Dst Port: 80, Seq: 167, Ack: 216, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 0.010000       192.168.202.79        192.168.229.251       TCP      78     50467 → 80 [SYN] Seq=0 Win=14600 Len=0 MSS=1460 SACK_PERM=1 TSval=8813002 TSecr=0 WS=16
+
+Frame 38: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50467, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 0.010000       192.168.229.254       192.168.202.79        TLSv1    178    Application Data
+
+Frame 39: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 582, Ack: 518, Len: 108
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 0.010000       192.168.229.251       192.168.202.79        TCP      70     80 → 50465 [ACK] Seq=216 Ack=168 Win=64074 Len=0 TSval=46388446 TSecr=8813002
+
+Frame 40: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.251, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 80, Dst Port: 50465, Seq: 216, Ack: 168, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 0.010000       192.168.229.251       192.168.202.79        TCP      82     80 → 50467 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1380 WS=1 TSval=0 TSecr=0 SACK_PERM=1
+
+Frame 41: 82 bytes on wire (656 bits), 82 bytes captured (656 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.251, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 80, Dst Port: 50467, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 0.010000       192.168.229.153       192.168.202.79        SMB      109    Session Setup AndX Response, Error: STATUS_LOGON_FAILURE
+
+Frame 42: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.153, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 445, Dst Port: 55173, Seq: 79, Ack: 432, Len: 39
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 0.010000       192.168.229.254       192.168.202.79        TLSv1    120    Application Data
+
+Frame 43: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 690, Ack: 518, Len: 50
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 0.010000       192.168.229.254       192.168.202.79        TLSv1    135    Application Data
+
+Frame 44: 135 bytes on wire (1080 bits), 135 bytes captured (1080 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 740, Ack: 518, Len: 65
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 0.010000       192.168.229.254       192.168.202.79        TLSv1    299    Application Data
+
+Frame 45: 299 bytes on wire (2392 bits), 299 bytes captured (2392 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 805, Ack: 518, Len: 229
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 0.010000       192.168.229.254       192.168.202.79        TLSv1    97     Application Data
+
+Frame 46: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 1034, Ack: 518, Len: 27
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 0.010000       192.168.229.254       192.168.202.79        TCP      70     443 → 46119 [FIN, PSH, ACK] Seq=1061 Ack=518 Win=32768 Len=0 TSval=319644354 TSecr=0
+
+Frame 47: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 1061, Ack: 518, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 0.010000       192.168.202.79        192.168.229.251       TCP      70     50467 → 80 [ACK] Seq=1 Ack=1 Win=14608 Len=0 TSval=8813002 TSecr=0
+
+Frame 48: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50467, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 0.010000       192.168.215.1         224.0.0.10            EIGRP    78     Hello
+
+Frame 49: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: Cisco_9d:f2:ce (00:16:47:9d:f2:ce), Dst: IPv4mcast_0a (01:00:5e:00:00:0a)
+802.1Q Virtual LAN, PRI: 6, DEI: 0, ID: 215
+Internet Protocol Version 4, Src: 192.168.215.1, Dst: 224.0.0.10
+Cisco EIGRP
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 0.010000       192.168.202.79        192.168.229.251       HTTP     236    HEAD /DEASLog03.nsf HTTP/1.1 
+
+Frame 50: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50467, Dst Port: 80, Seq: 1, Ack: 1, Len: 166
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 0.010000       192.168.202.79        192.168.229.153       SMB      212    Session Setup AndX Request, User: \netadmin
+
+Frame 51: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.153
+Transmission Control Protocol, Src Port: 55173, Dst Port: 445, Seq: 432, Ack: 118, Len: 142
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 0.020000       192.168.229.251       192.168.202.79        HTTP     284    HTTP/1.1 404 Not Found 
+
+Frame 52: 284 bytes on wire (2272 bits), 284 bytes captured (2272 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.251, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 80, Dst Port: 50467, Seq: 1, Ack: 167, Len: 214
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 0.020000       192.168.229.153       192.168.202.79        SMB      109    Session Setup AndX Response, Error: STATUS_LOGON_FAILURE
+
+Frame 53: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.153, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 445, Dst Port: 55173, Seq: 118, Ack: 574, Len: 39
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 0.020000       192.168.202.79        192.168.229.153       SMB      208    Session Setup AndX Request, User: \user
+
+Frame 54: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.153
+Transmission Control Protocol, Src Port: 55173, Dst Port: 445, Seq: 574, Ack: 157, Len: 138
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 0.020000       192.168.202.79        192.168.229.254       TLSv1    97     Encrypted Alert
+
+Frame 55: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46119, Dst Port: 443, Seq: 518, Ack: 1062, Len: 27
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 0.020000       192.168.202.79        192.168.229.254       TCP      70     46119 → 443 [FIN, ACK] Seq=545 Ack=1062 Win=16616 Len=0 TSval=8813003 TSecr=319644354
+
+Frame 56: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46119, Dst Port: 443, Seq: 545, Ack: 1062, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 0.020000       192.168.229.254       192.168.202.79        TCP      70     443 → 46119 [RST] Seq=1062 Win=32768 Len=0 TSval=319644359 TSecr=0
+
+Frame 57: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46119, Seq: 1062, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 0.020000       192.168.202.79        192.168.229.254       TCP      78     46121 → 443 [SYN] Seq=0 Win=14600 Len=0 MSS=1460 SACK_PERM=1 TSval=8813003 TSecr=0 WS=16
+
+Frame 58: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46121, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 0.020000       192.168.229.254       192.168.202.79        TCP      78     443 → 46121 [SYN, ACK] Seq=0 Ack=1 Win=32768 Len=0 MSS=1380 SACK_PERM=1 TSval=319644359 TSecr=8813003
+
+Frame 59: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 0.020000       192.168.229.153       192.168.202.79        SMB      109    Session Setup AndX Response, Error: STATUS_LOGON_FAILURE
+
+Frame 60: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.153, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 445, Dst Port: 55173, Seq: 157, Ack: 712, Len: 39
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 0.020000       192.168.202.79        192.168.229.254       TCP      70     46121 → 443 [ACK] Seq=1 Ack=1 Win=14600 Len=0 TSval=8813004 TSecr=319644359
+
+Frame 61: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46121, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 0.020000       192.168.202.79        192.168.229.254       SSLv2    202    Client Hello
+
+Frame 62: 202 bytes on wire (1616 bits), 202 bytes captured (1616 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46121, Dst Port: 443, Seq: 1, Ack: 1, Len: 132
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 0.020000       192.168.229.254       192.168.202.79        TCP      70     443 → 46121 [ACK] Seq=1 Ack=133 Win=32768 Len=0 TSval=319644360 TSecr=8813004
+
+Frame 63: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 1, Ack: 133, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 0.020000       192.168.229.254       192.168.202.79        TLSv1    604    Server Hello, Certificate, Server Hello Done
+
+Frame 64: 604 bytes on wire (4832 bits), 604 bytes captured (4832 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 1, Ack: 133, Len: 534
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 0.020000       192.168.202.79        192.168.229.254       TCP      70     46121 → 443 [ACK] Seq=133 Ack=535 Win=15544 Len=0 TSval=8813004 TSecr=319644361
+
+Frame 65: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46121, Dst Port: 443, Seq: 133, Ack: 535, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 0.020000       192.168.202.79        192.168.229.254       TLSv1    256    Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 66: 256 bytes on wire (2048 bits), 256 bytes captured (2048 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46121, Dst Port: 443, Seq: 133, Ack: 535, Len: 186
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 0.020000       192.168.229.254       192.168.202.79        TCP      70     443 → 46121 [ACK] Seq=535 Ack=319 Win=32768 Len=0 TSval=319644363 TSecr=8813004
+
+Frame 67: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 535, Ack: 319, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 0.020000       192.168.229.254       192.168.202.79        TLSv1    117    Change Cipher Spec, Encrypted Handshake Message
+
+Frame 68: 117 bytes on wire (936 bits), 117 bytes captured (936 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 535, Ack: 319, Len: 47
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 0.020000       192.168.202.79        192.168.229.251       TCP      70     50467 → 80 [FIN, ACK] Seq=167 Ack=216 Win=15680 Len=0 TSval=8813005 TSecr=46388446
+
+Frame 69: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50467, Dst Port: 80, Seq: 167, Ack: 216, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 0.020000       192.168.202.79        192.168.229.251       TCP      78     50469 → 80 [SYN] Seq=0 Win=14600 Len=0 MSS=1460 SACK_PERM=1 TSval=8813005 TSecr=0 WS=16
+
+Frame 70: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50469, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 0.030000       192.168.202.79        192.168.229.254       TLSv1    269    Application Data
+
+Frame 71: 269 bytes on wire (2152 bits), 269 bytes captured (2152 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46121, Dst Port: 443, Seq: 319, Ack: 582, Len: 199
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 0.030000       192.168.202.79        192.168.229.153       SMB      207    Session Setup AndX Request, User: \web
+
+Frame 72: 207 bytes on wire (1656 bits), 207 bytes captured (1656 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.153
+Transmission Control Protocol, Src Port: 55173, Dst Port: 445, Seq: 712, Ack: 196, Len: 137
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 0.030000       192.168.229.251       192.168.202.79        TCP      70     80 → 50467 [ACK] Seq=216 Ack=168 Win=64074 Len=0 TSval=46388446 TSecr=8813005
+
+Frame 73: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.251, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 80, Dst Port: 50467, Seq: 216, Ack: 168, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 0.030000       192.168.229.254       192.168.202.79        TCP      70     443 → 46121 [ACK] Seq=582 Ack=518 Win=32768 Len=0 TSval=319644367 TSecr=8813005
+
+Frame 74: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 582, Ack: 518, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 0.030000       192.168.229.251       192.168.202.79        TCP      82     80 → 50469 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1380 WS=1 TSval=0 TSecr=0 SACK_PERM=1
+
+Frame 75: 82 bytes on wire (656 bits), 82 bytes captured (656 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.251, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 80, Dst Port: 50469, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 0.030000       192.168.202.79        192.168.229.251       TCP      70     50469 → 80 [ACK] Seq=1 Ack=1 Win=14608 Len=0 TSval=8813006 TSecr=0
+
+Frame 76: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50469, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 0.030000       192.168.202.79        192.168.229.251       HTTP     236    HEAD /DEASLog04.nsf HTTP/1.1 
+
+Frame 77: 236 bytes on wire (1888 bits), 236 bytes captured (1888 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.251
+Transmission Control Protocol, Src Port: 50469, Dst Port: 80, Seq: 1, Ack: 1, Len: 166
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 0.030000       192.168.229.254       192.168.202.79        TLSv1    178    Application Data
+
+Frame 78: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 582, Ack: 518, Len: 108
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 0.030000       192.168.229.254       192.168.202.79        TLSv1    120    Application Data
+
+Frame 79: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 690, Ack: 518, Len: 50
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 0.030000       192.168.229.254       192.168.202.79        TLSv1    135    Application Data
+
+Frame 80: 135 bytes on wire (1080 bits), 135 bytes captured (1080 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 740, Ack: 518, Len: 65
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 0.030000       192.168.229.254       192.168.202.79        TLSv1    299    Application Data
+
+Frame 81: 299 bytes on wire (2392 bits), 299 bytes captured (2392 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 805, Ack: 518, Len: 229
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 0.030000       192.168.229.254       192.168.202.79        TLSv1    97     Application Data
+
+Frame 82: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 1034, Ack: 518, Len: 27
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 0.030000       192.168.229.254       192.168.202.79        TCP      70     443 → 46121 [FIN, PSH, ACK] Seq=1061 Ack=518 Win=32768 Len=0 TSval=319644368 TSecr=0
+
+Frame 83: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 1061, Ack: 518, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 0.030000       192.168.229.153       192.168.202.79        SMB      109    Session Setup AndX Response, Error: STATUS_LOGON_FAILURE
+
+Frame 84: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.153, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 445, Dst Port: 55173, Seq: 196, Ack: 849, Len: 39
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 0.030000       192.168.202.79        192.168.229.153       SMB      208    Session Setup AndX Request, User: \test
+
+Frame 85: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.153
+Transmission Control Protocol, Src Port: 55173, Dst Port: 445, Seq: 849, Ack: 235, Len: 138
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 0.030000       192.168.229.153       192.168.202.79        SMB      109    Session Setup AndX Response, Error: STATUS_LOGON_FAILURE
+
+Frame 86: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.153, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 445, Dst Port: 55173, Seq: 235, Ack: 987, Len: 39
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 0.030000       192.168.229.251       192.168.202.79        HTTP     284    HTTP/1.1 404 Not Found 
+
+Frame 87: 284 bytes on wire (2272 bits), 284 bytes captured (2272 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.251, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 80, Dst Port: 50469, Seq: 1, Ack: 167, Len: 214
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 0.030000       192.168.202.79        192.168.229.254       TLSv1    97     Encrypted Alert
+
+Frame 88: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46121, Dst Port: 443, Seq: 518, Ack: 1062, Len: 27
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 0.030000       192.168.202.79        192.168.229.254       TCP      70     46121 → 443 [FIN, ACK] Seq=545 Ack=1062 Win=16616 Len=0 TSval=8813007 TSecr=319644368
+
+Frame 89: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46121, Dst Port: 443, Seq: 545, Ack: 1062, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 0.030000       192.168.229.254       192.168.202.79        TCP      70     443 → 46121 [RST] Seq=1062 Win=32768 Len=0 TSval=319644372 TSecr=0
+
+Frame 90: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46121, Seq: 1062, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 0.030000       192.168.202.79        192.168.229.254       TCP      78     46123 → 443 [SYN] Seq=0 Win=14600 Len=0 MSS=1460 SACK_PERM=1 TSval=8813007 TSecr=0 WS=16
+
+Frame 91: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46123, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 0.030000       192.168.202.79        192.168.229.153       SMB      208    Session Setup AndX Request, User: \root
+
+Frame 92: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.153
+Transmission Control Protocol, Src Port: 55173, Dst Port: 445, Seq: 987, Ack: 274, Len: 138
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 0.030000       192.168.229.254       192.168.202.79        TCP      78     443 → 46123 [SYN, ACK] Seq=0 Ack=1 Win=32768 Len=0 MSS=1380 SACK_PERM=1 TSval=319644372 TSecr=8813007
+
+Frame 93: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46123, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 0.030000       192.168.202.79        192.168.229.254       TCP      70     46123 → 443 [ACK] Seq=1 Ack=1 Win=14600 Len=0 TSval=8813007 TSecr=319644372
+
+Frame 94: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46123, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 0.030000       192.168.202.79        192.168.229.254       SSLv2    202    Client Hello
+
+Frame 95: 202 bytes on wire (1616 bits), 202 bytes captured (1616 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46123, Dst Port: 443, Seq: 1, Ack: 1, Len: 132
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 0.030000       192.168.229.254       192.168.202.79        TCP      70     443 → 46123 [ACK] Seq=1 Ack=133 Win=32768 Len=0 TSval=319644373 TSecr=8813007
+
+Frame 96: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46123, Seq: 1, Ack: 133, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 0.030000       192.168.229.254       192.168.202.79        TLSv1    604    Server Hello, Certificate, Server Hello Done
+
+Frame 97: 604 bytes on wire (4832 bits), 604 bytes captured (4832 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.254, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 46123, Seq: 1, Ack: 133, Len: 534
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 0.030000       192.168.229.153       192.168.202.79        SMB      109    Session Setup AndX Response, Error: STATUS_LOGON_FAILURE
+
+Frame 98: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2), Dst: VMware_41:4b:e7 (00:0c:29:41:4b:e7)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.229.153, Dst: 192.168.202.79
+Transmission Control Protocol, Src Port: 445, Dst Port: 55173, Seq: 274, Ack: 1125, Len: 39
+NetBIOS Session Service
+SMB (Server Message Block Protocol)
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 0.030000       192.168.202.79        192.168.229.254       TCP      70     46123 → 443 [ACK] Seq=133 Ack=535 Win=15544 Len=0 TSval=8813007 TSecr=319644374
+
+Frame 99: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46123, Dst Port: 443, Seq: 133, Ack: 535, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 0.030000       192.168.202.79        192.168.229.254       TLSv1    256    Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 100: 256 bytes on wire (2048 bits), 256 bytes captured (2048 bits)
+Ethernet II, Src: VMware_41:4b:e7 (00:0c:29:41:4b:e7), Dst: Cisco_9d:f2:c2 (00:16:47:9d:f2:c2)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 120
+Internet Protocol Version 4, Src: 192.168.202.79, Dst: 192.168.229.254
+Transmission Control Protocol, Src Port: 46123, Dst Port: 443, Seq: 133, Ack: 535, Len: 186
+Transport Layer Security
